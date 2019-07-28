@@ -1,0 +1,58 @@
+.container{
+    border-color:black;
+}
+.nav li{
+float: right;
+}
+.nav li:hover{
+    background-color:#0099cc;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color:#333;
+    /* text styles*/
+    color:black;
+}
+li a{
+    display: block;
+    width: 60px;
+    color: white;
+    text-align: center;
+    padding:14px 16px;
+    text decoration: none;
+}
+.banner{
+    width:100%; 
+    background-size: cover;
+    color: white;
+    /*text style*/
+    text-align: center;
+    font-size:2em;
+    padding-top:15px;
+}
+.centered{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font size:50%;
+}
+.courses{
+    text-align: center; 
+}
+.testimonies h1{
+text-align:center;
+}
+.testimonies p{
+    text-align: center;
+    font-size:1.5em;
+}
+.footer p{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding:15px;
+}
